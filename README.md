@@ -1,8 +1,8 @@
-# Projeto de eletrônica
+# Objetivo
+Esse projeto é voltado me ajudar a aprender mais python e me fazer continuar aprendendo outras linguagens de programação
 
-Display com informações de uso de CPU e RAM
+# O que esse projeto apresenta?
+Ele é um mini terminal game de pokemon com os modos Aventura e Batalha.
+Apresenta também sistema de mochila e pokedex simples.
 
-## Materiais:
-  - Display I2C
-  - Arduino Nano
-  - Muita fé
+Esse projeto não utiliza conceitos de POO.
