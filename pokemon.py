@@ -7,7 +7,7 @@ from getPokemonInfo import getPokemonInfo
 # Define the player's pokedex & pokemons
 pokeSlot = []
 pokedex = {}
-# comentario teste
+
 # Define starter for the adventure loop
 starter = 0
 
