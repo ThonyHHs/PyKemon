@@ -6,7 +6,7 @@ from getPokemonInfo import getPokemonInfo
 
 # Define the player's pokedex & pokemons
 pokeSlot = []
-pokedex = {}
+pokedex = set()
 
 # Define starter for the adventure loop
 starter = 0
@@ -16,7 +16,7 @@ starter = 0
 # display the status of the pokemon that the player has
 def showPokedex(pokemon):
     system("cls")
-    if pokemon != {}:
+    if bool(pokemon) != False:
         for i in pokemon:
             print(f"#{i:0>2}")
             for j in getPokemonInfo(i):
@@ -29,7 +29,7 @@ def showPokedex(pokemon):
 # add the pokemons to the pokedex and bag
 def addPokemon(pokemon):
     global pokedex
-    pokedex[pokemon] = getPokemonInfo(pokemon)
+    pokedex.add(pokemon)
     pokeSlot.append(pokemon)
 
 
